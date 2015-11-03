@@ -1,0 +1,18 @@
+- Una regla Css se especifica por elnombre de una propiedad css, luego el caracter ':',
+  luego el valor que se le desee asignar a dicha propiedad, luego el caracter ';'.
+
+        propiedad: valor;
+
+- Una declaración de estilos es una colección de selectores con sus reglas asociadas,
+  Las reglas van entre llaves.
+
+        selector {propiedad1: valor1; propiedad2: valor2; propiedad3: valor3;}
+
+- Por convensión se suelen indentar de esta manera
+
+        selector {
+            propiedad1: valor1;
+            propiedad2: valor2;
+            propiedad3: valor3;
+        }
+

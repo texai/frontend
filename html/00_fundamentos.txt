@@ -1,0 +1,52 @@
+fundamentos.txt
+
+- Una Etiqueta es una palabra delimitada por '<' y '>' 
+
+		<idea>
+
+
+- Algunas etiquetas pueden tener contenido, en ese caso el contenido es
+  delimitado por la etiqueta de apertura y luego la etiqueta de cierre
+
+		<idea>La descripción de mi idea</idea>
+
+
+- Otras etiquetas no tienen contenido por tal razon NO abren y luego cierran,
+  si no, se expresan de la siguiente manera:
+
+  		<separador />
+
+
+ - Las etiquetas son anidables:
+
+ 		<reglamento>
+ 			<regla>primera regla</regla>
+ 			<regla>segunda regla</regla>
+ 		</reglament>
+
+
+ - Anidables a muchos niveles
+
+ 		<reglamento>
+ 			<regla>
+ 				<titulo>Primera Regla</titulo>
+ 				<autores>
+ 					<autor>Juan P.<autor>
+ 					<autor>Luis R.<autor>
+ 				<autores>
+ 				<contenido>Lorem Ipsum...</contenido>
+ 			</regla>
+ 			<regla>
+ 				<titulo>Segunda Regla</titulo>
+ 				<autores>
+ 					<autor>Manuel V.<autor>
+ 					<autor>Jose O.<autor>
+ 				<autores>
+ 				<contenido>Lorem Ipsum...</contenido>
+ 			</regla>
+ 		</reglamento> 		
+
+
+- Las etiquetas pueden tener atributos:
+
+		<regla></regla>
