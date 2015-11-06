@@ -1,0 +1,27 @@
+.dbg(){
+	border: 1px red dashed;
+	color: red;
+}
+
+#menu .item{
+	text-decoration: none;
+	.dbg();
+}
+
+#articles .article h3.title{
+    font-size: 17px;
+    .dbg();
+}
+
+
+/* Con Parámetros. */
+// Esto no convierte
+
+.titulo(@tamano, @color){
+    font-size: @tamano;
+    color: @color;
+}
+
+a.principal {
+    .titulo(20px, #994);
+}

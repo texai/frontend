@@ -1,0 +1,16 @@
+.articulo {
+  font-size: 13px;
+  font-face: self-serif;
+}
+.articulo .titulo {
+  font-size: 19px;
+}
+.articulo .cuerpo {
+  margin-left: 10px;
+}
+.articulo:last {
+  border-bottom: 3px solid #eee;
+}
+.articulo:last .cuerpo {
+  margin-left: 30px;
+}
